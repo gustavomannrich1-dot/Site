@@ -30,7 +30,8 @@
         <article>
 
             <p>
-                Olá! Meu nome é Gustavo Mannrich Cardoso, sou um desenvolvedor de software apaixonado por tecnologia e inovação.
+                Olá! Meu nome é Gustavo Mannrich Cardoso, sou um desenvolvedor de software apaixonado por tecnologia e
+                inovação.
                 Tenho experiência em diversas linguagens de programação e estou sempre buscando aprender mais para
                 aprimorar minhas habilidades. Adoro trabalhar em projetos desafiadores e colaborar com equipes criativas
                 para criar soluções eficientes e impactantes.
@@ -76,10 +77,39 @@
 
             <p>Tem um projeto em mente? Entre em contato comigo!</p>
 
-            <address>
-                E-mail: <a href="mailto:gustavomannrich60@gmail.com">gustavomannrich60@gmail.com</a> <br>
-                Telefone: <a href="tel:+5547992769909">47 99276-9909</a>
-            </address>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar Mensagem">
+
+            </form>
 
         </section>
     </footer>
